@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Albertus Nova';
+	src: local('../fonts/AlbertusNova'),
+	url('../fonts/AlbertusNova.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'San Francisco Text Regular';
+	src: local('../fonts/SFUIText-Regular'),
+	url('../fonts/SFUIText-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'San Francisco Text Medium';
+	src: local('../fonts/SFUIText-Medium'),
+	url('../fonts/SFUIText-Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'San Francisco Text Semibold';
+	src: local('../fonts/SFUIText-Semibold'),
+	url('../fonts/SFUIText-Semibold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

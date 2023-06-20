@@ -1,0 +1,29 @@
+:root {
+	// base
+	--font-family-albertusnova: "Albertus Nova", sans-serif;
+	--font-family-sf: "San Francisco Text Regular", sans-serif;
+	--font-family-sf-500: "San Francisco Text Medium", sans-serif;
+	--font-family-sf-600: "San Francisco Text Semibold", sans-serif;
+
+	// colors
+	--black-color: #000000;
+	--white-color: #FFFFFF;
+
+	--header-bgc: #663333;
+
+	--yellow-color: #e7a31d;
+	--gray-color: #cccccc;
+
+	--text-primary: #281509;
+	--text-secondary: #6f531a;
+	--text-caption: #dddddd;
+
+	--board: #e5ddd9;
+
+	// fancybox
+	--fancybox-scrollbar-compensate: 17px;
+	--fancybox-bg: rgba(0, 0, 0, 0.7);
+
+	// transition
+	--transition: 0.2s ease-out;
+}
