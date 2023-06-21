@@ -368,11 +368,158 @@
                 </div>
             </div>
             <div class="gap-sm">
-                <div class="holiday__list">
-                    <div class="holiday__list">
-                        <div class="holiday__item">
-                            <div class="event-gallery__descr">ДНИ<br>РОЖДЕНИЯ</div>
+                <div class="holiday-event">
+                    <div class="holiday-event__item">
+                        <div class="holiday-event__heading">
+                            <div class="holiday-event__decor">
+                                <picture>
+                                    <source srcset="img/Галочка.webp" type="image/webp">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Галочка.png"
+                                        class="image"
+                                        width="24"
+                                        height="24"
+                                        alt="Изображение блока"
+                                    >
+                                </picture>
+                            </div>
+                            <div class="holiday-event__title">ЗАХВАТЫВАЮЩАЯ<br>ШОУ-ПРОГРАММА</div>
                         </div>
+                        <div class="holiday-event__descr">С ведущими и персонажами</div>
+                    </div>
+                    <div class="holiday-event__item">
+                        <div class="holiday-event__heading">
+                            <div class="holiday-event__decor">
+                                <picture>
+                                    <source srcset="img/Галочка.webp" type="image/webp">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Галочка.png"
+                                        class="image"
+                                        width="24"
+                                        height="24"
+                                        alt="Изображение блока"
+                                    >
+                                </picture>
+                            </div>
+                            <div class="holiday-event__title">ЗАЖИГАТЕЛЬНАЯ<br>ДИСКОТЕКА</div>
+                        </div>
+                        <div class="holiday-event__descr">батлы, флешмобы, jast dence</div>
+                    </div>
+                    <div class="holiday-event__item">
+                        <div class="holiday-event__heading">
+                            <div class="holiday-event__decor">
+                                <picture>
+                                    <source srcset="img/Галочка.webp" type="image/webp">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Галочка.png"
+                                        class="image"
+                                        width="24"
+                                        height="24"
+                                        alt="Изображение блока"
+                                    >
+                                </picture>
+                            </div>
+                            <div class="holiday-event__title">ОБЪЕМНЫЙ<br>РЕКВИЗИТ</div>
+                        </div>
+                        <div class="holiday-event__descr">оригинальные и авторские испытания, сокровищница с золотом</div>
+                    </div>
+                    <div class="holiday-event__item">
+                        <div class="holiday-event__heading">
+                            <div class="holiday-event__decor">
+                                <picture>
+                                    <source srcset="img/Галочка.webp" type="image/webp">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Галочка.png"
+                                        class="image"
+                                        width="24"
+                                        height="24"
+                                        alt="Изображение блока"
+                                    >
+                                </picture>
+                            </div>
+                            <div class="holiday-event__title">НАСТОЯЩИЕ<br>ЖИВОТНЫЕ</div>
+                        </div>
+                        <div class="holiday-event__descr">в испытаниях: змеи, мадагаскарские тараканы, мыши</div>
+                    </div>
+                    <div class="holiday-event__item">
+                        <div class="holiday-event__heading">
+                            <div class="holiday-event__decor">
+                                <picture>
+                                    <source srcset="img/Галочка.webp" type="image/webp">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Галочка.png"
+                                        class="image"
+                                        width="24"
+                                        height="24"
+                                        alt="Изображение блока"
+                                    >
+                                </picture>
+                            </div>
+                            <div class="holiday-event__title">ФИРМЕННЫЙ<br>ТОРТ</div>
+                        </div>
+                        <div class="holiday-event__descr">вкуснейший в виде крепости</div>
+                    </div>
+                    <div class="holiday-event__item">
+                        <div class="holiday-event__heading">
+                            <div class="holiday-event__decor">
+                                <picture>
+                                    <source srcset="img/Галочка.webp" type="image/webp">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Галочка.png"
+                                        class="image"
+                                        width="24"
+                                        height="24"
+                                        alt="Изображение блока"
+                                    >
+                                </picture>
+                            </div>
+                            <div class="holiday-event__title">БАНКЕТНАЯ<br>ЗОНА</div>
+                        </div>
+                        <div class="holiday-event__descr">стилизованное пространство на 40 мест</div>
+                    </div>
+                    <div class="holiday-event__item">
+                        <div class="holiday-event__heading">
+                            <div class="holiday-event__decor">
+                                <picture>
+                                    <source srcset="img/Галочка.webp" type="image/webp">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Галочка.png"
+                                        class="image"
+                                        width="24"
+                                        height="24"
+                                        alt="Изображение блока"
+                                    >
+                                </picture>
+                            </div>
+                            <div class="holiday-event__title">УНИФОРМА НА<br>ВРЕМЯ ПРОГРАММЫ</div>
+                        </div>
+                        <div class="holiday-event__descr">одеваем в фирменные футболки</div>
+                    </div>
+                    <div class="holiday-event__item">
+                        <div class="holiday-event__heading">
+                            <div class="holiday-event__decor">
+                                <picture>
+                                    <source srcset="img/Галочка.webp" type="image/webp">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Галочка.png"
+                                        class="image"
+                                        width="24"
+                                        height="24"
+                                        alt="Изображение блока"
+                                    >
+                                </picture>
+                            </div>
+                            <div class="holiday-event__title">ПРОФЕССИОНАЛЬНЫЙ<br>ФОТОГРАФ</div>
+                        </div>
+                        <div class="holiday-event__descr">профессионал для суперских фотографий</div>
                     </div>
                 </div>
             </div>
@@ -385,6 +532,184 @@
         </div>
     </div>
 </div>
+
+<div class="hr"></div>
+
+<div class="screen fourth-screen" style="background-image: url('img/footer-bg.png');">
+    <div class="recent-events">
+        <div class="container recent-events-container">
+            <div class="recent-events-gallery">
+                <div class="recent-events-gallery__list chain-decor">
+                    <div class="chain-decor__item"></div>
+                    <div class="chain-decor__item"></div>
+                    <div class="chain-decor__item"></div>
+                    <div class="chain-decor__item"></div>
+
+                    <div class="recent-events-gallery__item recent-events-gallery__heading">
+                        <div class="recent-events-gallery__title h3">ПОСМОТРИТЕ ФОТО И ВИДЕО С НЕДАВНИХ ПРАЗДНИКОВ</div>
+                    </div>
+                    <div class="recent-events-gallery__item">
+                        <picture>
+                            <source srcset="img/re-1.webp" type="image/webp">
+                            <img
+                                loading="lazy"
+                                src="img/re-1.png"
+                                class="image"
+                                width="375"
+                                height="320"
+                                alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                    <div class="recent-events-gallery__item">
+                        <picture>
+                            <source srcset="img/re-2.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/re-2.png"
+                                    class="image"
+                                    width="375"
+                                    height="320"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                    <div class="recent-events-gallery__item">
+                        <picture>
+                            <source srcset="img/re-3.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/re-3.png"
+                                    class="image"
+                                    width="375"
+                                    height="320"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                    <div class="recent-events-gallery__item">
+                        <picture>
+                            <source srcset="img/re-4.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/re-4.png"
+                                    class="image"
+                                    width="375"
+                                    height="320"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                    <div class="recent-events-gallery__item">
+                        <picture>
+                            <source srcset="img/re-5.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/re-5.png"
+                                    class="image"
+                                    width="375"
+                                    height="320"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                    <div class="recent-events-gallery__item">
+                        <picture>
+                            <source srcset="img/re-6.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/re-6.png"
+                                    class="image"
+                                    width="375"
+                                    height="320"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                    <div class="recent-events-gallery__item">
+                        <picture>
+                            <source srcset="img/re-7.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/re-7.png"
+                                    class="image"
+                                    width="375"
+                                    height="320"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                    <div class="recent-events-gallery__item">
+                        <picture>
+                            <source srcset="img/re-8.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/re-8.png"
+                                    class="image"
+                                    width="375"
+                                    height="320"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="screen fifth-screen">
+    <div class="why-tel">
+        <div class="container why-tel-container">
+            <div class="why-tel-info">
+                <div class="why-tel-info__item">
+                    <div class="gap-xs h3 why-tel-info__title">ЗАЧЕМ МЫ ПРОСИМ НОМЕР ТЕЛЕФОНА</div>
+                    <div class="gap-xs why-tel-info__text">
+                        <span>Для детей и взрослых мы составляем разную программу, с учетом ваших пожеланий, а сложность испытаний и головоломок зависит от возраста вашей компании</span>
+                    </div>
+                    <div class="why-tel-info__btn-g">
+                        <button class="btn-reset btn btn-primary btn-solo">
+                            <span class="btn__text">УЗНАТЬ СТОИМОСТЬ</span>
+                            <span class="btn-primary__effects"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="why-tel-info__item why-tel-info__cause">
+                    <div class="gap-sm h4 why-tel-info__cause-title">На это есть 3 причины:</div>
+                    <ul class="list-reset why-tel-info__cause-list">
+                        <li>Чтобы дать полную информацию: прежде всего о стоимости программы.
+                            Пока нет всех данных — количества участников, наполнения мероприятия
+                            и ещё многих нюансов — мы не можем посчитать точную сумму.</li>
+                        <li>Чтобы сэкономить ваше время: исходя из опыта, в среднем разговор с
+                            менеджером по телефону длится 20 минут. Представляете сколько часов
+                            будет длится переписка?</li>
+                        <li>А ещё у нас есть акции и скидки на определенные даты и время — о них
+                            тоже удобней поговорить по телефону и сразу решить подходит вам это
+                            предложение или нет.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="screen sixth-screen">
+    <div class="charity">
+        <div class="charity-container">
+            <div class="gap-md h2 charity__title">БЛАГОТВОРИТЕЛЬНОСТЬ</div>
+            <div class="charity-sldier swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                </div>
+                <div class="swiper-navigation">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <div class="hr"></div>
 
