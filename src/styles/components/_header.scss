@@ -66,6 +66,27 @@
 				cursor: default;
 			}
 		}
+		&-right {
+			.header-contacts-descr {
+				p {
+					position: relative;
+					padding-left: 8px;
+
+					&::before {
+						content: "";
+						position: absolute;
+						left: 0;
+						transform: translateY(-50%);
+						min-width: 3px;
+						width: 3px;
+						min-height: 3px;
+						height: 3px;
+						border-radius: 50%;
+						background-color: #fff;
+					}
+				}
+			}
+		}
 	}
 }
 @media (min-width: 576px) {
@@ -80,7 +101,7 @@
 		margin-bottom: -240px;
 
 		&-container {
-			gap: 16px 90px;
+			gap: 16px 50px;
 		}
 
 		&-logo {
@@ -119,6 +140,13 @@
 						width: 80px;
 						min-height: 65px;
 						height: 65px;
+					}
+				}
+				.header-contacts-descr {
+					p {
+						&::before {
+							top: 13px;
+						}
 					}
 				}
 			}
@@ -175,6 +203,13 @@
 						height: 40px;
 					}
 				}
+				.header-contacts-descr {
+					p {
+						&::before {
+							top: 8px;
+						}
+					}
+				}
 			}
 			&-descr {
 				font-size: 10px;
@@ -207,9 +242,6 @@
 					}
 				}
 			}
-			&-descr {
-				font-size: 10px;
-			}
 		}
 	}
 }
@@ -233,6 +265,13 @@
 						width: 60px;
 						min-height: 50px;
 						height: 50px;
+					}
+				}
+				.header-contacts-descr {
+					p {
+						&::before {
+							top: 11px;
+						}
 					}
 				}
 			}

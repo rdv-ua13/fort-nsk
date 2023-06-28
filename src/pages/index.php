@@ -9,10 +9,10 @@
                         <h1 class="h1 signboard__descr-title">ФОРТ — ВСЕ ПО&#8209;ВЗРОСЛОМУ</h1>
                     </div>
                     <div class="signboard__descr-text">
-                        <span>Квест шоу для детей и взрослых по мотивам популярной телепередачи на огромной площадке с банкетным залом в центре Новосибирска</span>
+                        <span>Квест-шоу для детей и взрослых по мотивам популярной телепередачи на огромной площадке с банкетным залом в центре Новосибирска</span>
                     </div>
                     <div class="gap-md signboard__descr-btn-g">
-                        <button class="btn-reset btn btn-primary btn-solo btn-primary-decored">
+                        <button class="btn-reset btn btn-primary btn-solo btn-primary-decored" data-fancybox data-src="#modal-request">
                             <span class="btn__text">РАССЧИТАТЬ СТОИМОСТЬ</span>
                             <span class="btn-primary__effects"></span>
                             <span class="btn__decor">
@@ -89,23 +89,23 @@
                             <div class="signboard__board-info-title h4">Какой у Вас планируется праздник?</div>
                             <div class="signboard__board-info-subtitle">Заполните простую форму и получите скидку 500 рублей</div>
                         </div>
-                        <div class="signboard__board-info-actions btn-g">
-                            <button class="btn-reset btn btn-mini btn-secondary">
-                                <img
-                                    loading="lazy"
-                                    class="image btn__icon"
-                                    src="img/telephone-call.png"
-                                    width="24"
-                                    height="24"
-                                    alt="Изображение блока"
+                        <form class="signboard__board-info-actions btn-g" action="" method="">
+                            <div class="input-wrapper input-wrapper-icon input-wrapper-tel">
+                                <input
+                                        class="input-reset input isPhone"
+                                        type="tel"
+                                        name=""
+                                        placeholder="НОМЕР ТЕЛЕФОНА"
+                                        value=""
+                                        autocomplete="off"
+                                        required
                                 >
-                                <span class="btn__text">НОМЕР ТЕЛЕФОНА</span>
-                            </button>
-                            <button class="btn-reset btn btn-mini btn-primary">
+                            </div>
+                            <button class="btn-reset btn btn-mini btn-primary" type="button" data-fancybox data-src="#modal-thx"> <?/* in backend version must be type="submit" */?>
                                 <span class="btn__text">УЗНАТЬ СТОИМОСТЬ</span>
                                 <span class="btn-primary__effects"></span>
                             </button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <button class="btn-reset btn btn-primary btn-solo">
+                <button class="btn-reset btn btn-primary btn-solo" data-fancybox data-src="#modal-request">
                     <span class="btn__text">ВЫБРАТЬ СОБЫТИЕ</span>
                     <span class="btn-primary__effects"></span>
                 </button>
@@ -278,13 +278,13 @@
                 <div class="signboard__intro">
                     <div class="signboard__descr">
                         <div class="signboard__descr-heading">
-                            <div class="h2 signboard__descr-title">УЗНАЙТЕ СТОИМОСТЬ ВАШЕГО ПРАЗНИКА</div>
+                            <div class="h2 signboard__descr-title">УЗНАЙТЕ СТОИМОСТЬ ВАШЕГО ПРАЗДНИКА</div>
                         </div>
                         <div class="signboard__descr-text">
-                            <span>Пройдите опрос за 30 секунд и мы рассчитаем стоимость мероприят</span>
+                            <span>Пройдите опрос за 30 секунд и мы рассчитаем стоимость мероприятия</span>
                         </div>
                         <div class="signboard__descr-btn-g">
-                            <button class="btn-reset btn btn-primary btn-solo btn-primary-decored">
+                            <a class="btn-reset btn btn-primary btn-solo btn-primary-decored" href="#popup:marquiz_643913f7e984a500254d65b4">
                                 <span class="btn__text">ПРОЙТИ ТЕСТ</span>
                                 <span class="btn-primary__effects"></span>
                                 <span class="btn__decor">
@@ -300,7 +300,7 @@
                                         >
                                     </picture>
                                 </span>
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div class="signboard__view">
@@ -363,8 +363,8 @@
         <div class="container holiday-container">
             <div class="gap-md">
                 <div class="holiday__heading">
-                    <div class="gap-sm h1 holiday__title">КАК МЫ СОЗДАЕМ ИДЕАЛЬНЫЙ ПРАЗНИК ДЛЯ ВАС</div>
-                    <div class="holiday__subtitle">Для детей и взрослых мы составляем разную программу, с учетом ваших пожеланий, а сложность испытаний и головоломок зависит от возраста вашей компании</div>
+                    <div class="gap-sm h1 holiday__title">КАК МЫ СОЗДАЕМ ИДЕАЛЬНЫЙ ПРАЗДНИК ДЛЯ ВАС</div>
+                    <div class="holiday__subtitle">Для детей и взрослых мы составляем разную программу, с учетом Ваших пожеланий, а сложность испытаний и головоломок зависит от возраста Вашей компании</div>
                 </div>
             </div>
             <div class="gap-sm">
@@ -386,7 +386,7 @@
                             </div>
                             <div class="holiday-event__title">ЗАХВАТЫВАЮЩАЯ<br>ШОУ-ПРОГРАММА</div>
                         </div>
-                        <div class="holiday-event__descr">С ведущими и персонажами</div>
+                        <div class="holiday-event__descr">с ведущими и персонажами</div>
                     </div>
                     <div class="holiday-event__item">
                         <div class="holiday-event__heading">
@@ -405,7 +405,7 @@
                             </div>
                             <div class="holiday-event__title">ЗАЖИГАТЕЛЬНАЯ<br>ДИСКОТЕКА</div>
                         </div>
-                        <div class="holiday-event__descr">батлы, флешмобы, jast dence</div>
+                        <div class="holiday-event__descr">батлы, флешмобы, just dance</div>
                     </div>
                     <div class="holiday-event__item">
                         <div class="holiday-event__heading">
@@ -524,7 +524,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <button class="btn-reset btn btn-primary btn-solo">
+                <button class="btn-reset btn btn-primary btn-solo" data-fancybox data-src="#modal-request">
                     <span class="btn__text">ЗАБРОНИРОВАТЬ ДАТУ</span>
                     <span class="btn-primary__effects"></span>
                 </button>
@@ -665,10 +665,10 @@
                 <div class="why-tel-info__item">
                     <div class="gap-xs h3 why-tel-info__title">ЗАЧЕМ МЫ ПРОСИМ НОМЕР ТЕЛЕФОНА</div>
                     <div class="gap-xs why-tel-info__text">
-                        <span>Для детей и взрослых мы составляем разную программу, с учетом ваших пожеланий, а сложность испытаний и головоломок зависит от возраста вашей компании</span>
+                        <span>Для детей и взрослых мы составляем разную программу, с учетом Ваших пожеланий, а сложность испытаний и головоломок зависит от возраста Вашей компании</span>
                     </div>
                     <div class="why-tel-info__btn-g">
-                        <button class="btn-reset btn btn-primary btn-solo">
+                        <button class="btn-reset btn btn-primary btn-solo" data-fancybox data-src="#modal-request">
                             <span class="btn__text">УЗНАТЬ СТОИМОСТЬ</span>
                             <span class="btn-primary__effects"></span>
                         </button>
@@ -680,7 +680,7 @@
                         <li>Чтобы дать полную информацию: прежде всего о стоимости программы.
                             Пока нет всех данных — количества участников, наполнения мероприятия
                             и ещё многих нюансов — мы не можем посчитать точную сумму.</li>
-                        <li>Чтобы сэкономить ваше время: исходя из опыта, в среднем разговор с
+                        <li>Чтобы сэкономить Ваше время: исходя из опыта, в среднем разговор с
                             менеджером по телефону длится 20 минут. Представляете сколько часов
                             будет длится переписка?</li>
                         <li>А ещё у нас есть акции и скидки на определенные даты и время — о них
@@ -693,23 +693,383 @@
     </div>
 </div>
 
-<div class="screen sixth-screen">
+<div class="screen sixth-screen" style="background-image: url('img/3rd-screen-bg.png');">
     <div class="charity">
-        <div class="charity-container">
-            <div class="gap-md h2 charity__title">БЛАГОТВОРИТЕЛЬНОСТЬ</div>
-            <div class="charity-sldier swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"></div>
+        <div class="container">
+            <div class="gap-md h2 charity__title text-center">БЛАГОТВОРИТЕЛЬНОСТЬ</div>
+            <div class="gap-lg basic-slider-wrap">
+                <div class="basic-slider swiper" data-basic-slider>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img
+                                loading="lazy"
+                                class="image"
+                                src="img/charity-1.png"
+                                width="280"
+                                height="420"
+                                alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                loading="lazy"
+                                class="image"
+                                src="img/charity-2.png"
+                                width="280"
+                                height="420"
+                                alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                loading="lazy"
+                                class="image"
+                                src="img/charity-3.png"
+                                width="280"
+                                height="420"
+                                alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                loading="lazy"
+                                class="image"
+                                src="img/charity-4.png"
+                                width="280"
+                                height="420"
+                                alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                loading="lazy"
+                                class="image"
+                                src="img/charity-1.png"
+                                width="280"
+                                height="420"
+                                alt="Изображение блока"
+                            >
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-navigation">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn-reset btn btn-primary btn-solo" data-fancybox data-src="#modal-request">
+                    <span class="btn__text">ПОДАТЬ ЗАЯВКУ</span>
+                    <span class="btn-primary__effects"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="screen seventh-screen" style="background-image: url('img/7th-screen-bg.png');">
+    <div class="booking">
+        <div class="booking-decor"></div>
+        <div class="container booking-container">
+            <div class="gap-md">
+                <div class="booking__heading">
+                    <div class="gap-sm h2 text-center">УСЛОВИЯ БРОНИРОВАНИЯ</div>
+                </div>
+            </div>
+            <div class="gap-sm">
+                <div class="booking-event">
+                    <div class="booking-event__item">
+                        <div class="booking-event__view">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/booking-tel.png"
+                                    width="53"
+                                    height="53"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="booking-event__descr">Оставляйте заявку, либо звоните нам.</div>
+                    </div>
+                    <div class="booking-event__item">
+                        <div class="booking-event__view">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/booking-info.png"
+                                    width="30"
+                                    height="68"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="booking-event__descr">Мы рассказываем, как у нас всё проходит.</div>
+                    </div>
+                    <div class="booking-event__item">
+                        <div class="booking-event__view">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/booking-contract.png"
+                                    width="39"
+                                    height="57"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="booking-event__descr">Выбираем дату и время. Заключаем договор.</div>
+                    </div>
+                    <div class="booking-event__item">
+                        <div class="booking-event__view">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/booking-money.png"
+                                    width="63"
+                                    height="63"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="booking-event__descr">Вносите минимальную предоплату.</div>
+                    </div>
+                    <div class="booking-event__item">
+                        <div class="booking-event__view">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/booking-phone.png"
+                                    width="41"
+                                    height="59"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                        <div class="booking-event__descr">Оплата через <br> #СБП.</div>
+                    </div>
+                    <div class="booking-event__item booking-event__item-qr">
+                        <picture>
+                            <source srcset="img/sbp-qr-code.webp" type="image/webp">
+                            <img
+                                    loading="lazy"
+                                    src="img/sbp-qr-code.png"
+                                    class="image"
+                                    width="226"
+                                    height="226"
+                                    alt="Изображение блока"
+                            >
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn-reset btn btn-primary btn-solo" data-fancybox data-src="#modal-request">
+                    <span class="btn__text">ЗАБРОНИРОВАТЬ ДАТУ</span>
+                    <span class="btn-primary__effects"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="screen eighth-screen">
+    <div class="reviews">
+        <div class="container reviews-container">
+            <div class="reviews-info">
+                <div class="h3 reviews-info__title">ЧТО ГОВОРЯТ НАШИ СЧАСТЛИВЫЕ ГОСТИ?</div>
+                <div class="reviews-info__slider-wrap">
+                    <div class="reviews-info__slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="reviews-link visually-play" href="demo.mp4" data-fancybox="">
+                                    <span class="visually-play-btn">
+                                        <img
+                                                loading="lazy"
+                                                class="visually-play-btn__icon"
+                                                src="img/play-icon.png"
+                                                width="23"
+                                                height="25"
+                                                alt="Изображение блока"
+                                        >
+                                    </span>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/Ф1.png"
+                                            width="310"
+                                            height="480"
+                                            alt="Изображение блока"
+                                    >
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="reviews-link visually-play" href="demo.mp4" data-fancybox="">
+                                    <span class="visually-play-btn">
+                                        <img
+                                                loading="lazy"
+                                                class="visually-play-btn__icon"
+                                                src="img/play-icon.png"
+                                                width="23"
+                                                height="25"
+                                                alt="Изображение блока"
+                                        >
+                                    </span>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/Ф2.png"
+                                            width="310"
+                                            height="480"
+                                            alt="Изображение блока"
+                                    >
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="reviews-link visually-play" href="demo.mp4" data-fancybox="">
+                                    <span class="visually-play-btn">
+                                        <img
+                                                loading="lazy"
+                                                class="visually-play-btn__icon"
+                                                src="img/play-icon.png"
+                                                width="23"
+                                                height="25"
+                                                alt="Изображение блока"
+                                        >
+                                    </span>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/Ф3.png"
+                                            width="310"
+                                            height="480"
+                                            alt="Изображение блока"
+                                    >
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="reviews-link visually-play" href="demo.mp4" data-fancybox="">
+                                    <span class="visually-play-btn">
+                                        <img
+                                                loading="lazy"
+                                                class="visually-play-btn__icon"
+                                                src="img/play-icon.png"
+                                                width="23"
+                                                height="25"
+                                                alt="Изображение блока"
+                                        >
+                                    </span>
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/Ф1.png"
+                                            width="310"
+                                            height="480"
+                                            alt="Изображение блока"
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-navigation">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<div class="screen ninth-screen" style="background-image: url('img/footer-bg.png');">
+    <div class="team">
+        <div class="container">
+            <div class="gap-xl team__title h1 text-center">НАША КОМАНДА</div>
+        </div>
+        <div class="team-slider-wrap chain-decor">
+            <div class="chain-decor__item"></div>
+            <div class="chain-decor__item"></div>
+            <div class="chain-decor__item"></div>
+            <div class="chain-decor__item"></div>
 
+            <div class="team-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/team-1.png"
+                                    width="310"
+                                    height="505"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/team-2.png"
+                                    width="310"
+                                    height="505"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/team-3.png"
+                                    width="310"
+                                    height="505"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/team-4.png"
+                                    width="310"
+                                    height="505"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/team-5.png"
+                                    width="310"
+                                    height="505"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/team-6.png"
+                                    width="310"
+                                    height="505"
+                                    alt="Изображение блока"
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-navigation">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="hr"></div>
 
@@ -777,13 +1137,16 @@
                             </div>
                             <div class="signboard__descr-contacts-descr">
                                 <p>
-                                    <span>пр-т&nbsp;Димитрова, д.&nbsp;5&nbsp;(ЦУМ), оф.&nbsp;401 <span class="desktop-only">(4&nbsp;этаж)</span> ул.&nbsp;Яринская, д.&nbsp;8</span>
+                                    <span>пр-т&nbsp;Димитрова, д.&nbsp;5&nbsp;(ЦУМ), оф.&nbsp;401 <span class="desktop-only">(4&nbsp;этаж)</span></span>
+                                </p>
+                                <p>
+                                    <span>ул.&nbsp;Яринская,&nbsp;д.&nbsp;8</span>
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="gap-md signboard__descr-btn-g">
-                        <button class="btn-reset btn btn-primary">
+                        <button class="btn-reset btn btn-primary btn-solo" data-fancybox data-src="#modal-request">
                             <span class="btn__text">ХОЧУ НА ЭКСКУРСИЮ</span>
                             <span class="btn-primary__effects"></span>
                         </button>
@@ -821,23 +1184,23 @@
                             <div class="signboard__board-info-title h4">Оставьте заявку прямо сейчас!</div>
                             <div class="signboard__board-info-subtitle">И получите гарантированную скидку 500 рублей!</div>
                         </div>
-                        <div class="signboard__board-info-actions btn-g">
-                            <button class="btn-reset btn btn-mini btn-secondary">
-                                <img
-                                    loading="lazy"
-                                    class="image btn__icon"
-                                    src="img/telephone-call.png"
-                                    width="24"
-                                    height="24"
-                                    alt="Изображение блока"
+                        <form class="signboard__board-info-actions btn-g" action="" method="">
+                            <div class="input-wrapper input-wrapper-icon input-wrapper-tel">
+                                <input
+                                        class="input-reset input isPhone"
+                                        type="tel"
+                                        name=""
+                                        placeholder="НОМЕР ТЕЛЕФОНА"
+                                        value=""
+                                        autocomplete="off"
+                                        required
                                 >
-                                <span class="btn__text">НОМЕР ТЕЛЕФОНА</span>
-                            </button>
-                            <button class="btn-reset btn btn-mini btn-primary">
+                            </div>
+                            <button class="btn-reset btn btn-mini btn-primary" type="button" data-fancybox data-src="#modal-thx"> <?/* in backend version must be type="submit" */?>
                                 <span class="btn__text">УЗНАТЬ СТОИМОСТЬ</span>
                                 <span class="btn-primary__effects"></span>
                             </button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>

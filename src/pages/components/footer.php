@@ -28,9 +28,6 @@
         </div>
     </footer>
 
-	<?/* Вариант подключения скриптов без 'defer'
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>*/?>
+	<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/modals.php"); ?>
 </body>
 </html>
